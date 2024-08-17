@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="66ae31d2-aaf1-41fe-8758-514cc6285a10" ChangeDateTime="08/04/2024 20:42:28">
+    <Property Name="ElementName" Value="[dbo].[Users].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fb823281-ee3d-4fba-a957-879410102c20" ChangeDateTime="08/04/2024 20:43:43">
+    <Property Name="ElementName" Value="[dbo].[Users].[UserID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="USER_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="81b0e3ed-d2fd-47e5-bfaa-2cefb9106db6" ChangeDateTime="08/04/2024 20:43:48">
+    <Property Name="ElementName" Value="[dbo].[Users].[DateAdded]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DATE_ADDED" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bd66cc2c-f4d9-4246-b94a-ed4d134bbd45" ChangeDateTime="08/04/2024 20:49:20">
+    <Property Name="ElementName" Value="[dbo].[BUDGET].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BUDGET]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BUDGET_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8d331eb-da88-4429-b81f-9ee1349b8583" ChangeDateTime="08/10/2024 15:42:18">
+    <Property Name="ElementName" Value="[dbo].[SPENDING].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SPENDING]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SPENDING_ITEM_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f7ae415d-3b87-4d02-91c0-c233e18a4d3f" ChangeDateTime="08/10/2024 16:06:08">
+    <Property Name="ElementName" Value="[dbo].[FOOD_PANTRY].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FOOD_PANTRY]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FOOD_ITEM_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="add82827-ada0-494a-b7ae-82339dc7ef99" ChangeDateTime="08/10/2024 16:10:08">
+    <Property Name="ElementName" Value="[dbo].[FOOD_PANTRY_PRICE_HISTORICAL].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FOOD_PANTRY_PRICE_HISTORICAL]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HISTORICAL_PRICE_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4cefca55-ff12-4647-a8e6-41bc14f05bd9" ChangeDateTime="08/10/2024 16:12:26">
+    <Property Name="ElementName" Value="[dbo].[SPENDING_RECURRING].[SPENDING_ITEM_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SPENDING_RECURRING]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RECURRING_SPENDING_ITEM_ID" />
+  </Operation>
+</Operations>
